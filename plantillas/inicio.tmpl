@@ -1,0 +1,29 @@
+{{ define "inicio"}}
+  {{ template "cabecera"}}
+
+        <table class="table">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Correo</th>
+                  <th>Acciones</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td> 1</td>
+                  <td> Rubens Rangel</td>
+                  <td> rualexander12@gmail.com</td>
+                  <td> Editar | Borrar</td>
+              </tr>
+              <tr>
+                  <td scope="row"></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+        </table>  
+  {{ template "pie"}}
+
+{{end}}
